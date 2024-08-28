@@ -14,6 +14,9 @@
 		0D59FF082C7E0CAF00481DCF /* LifeGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D59FF072C7E0CAF00481DCF /* LifeGameTests.swift */; };
 		0D59FF122C7E0CAF00481DCF /* LifeGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D59FF112C7E0CAF00481DCF /* LifeGameUITests.swift */; };
 		0D59FF142C7E0CAF00481DCF /* LifeGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D59FF132C7E0CAF00481DCF /* LifeGameUITestsLaunchTests.swift */; };
+		0D59FF222C7E0CEB00481DCF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D59FF212C7E0CEB00481DCF /* ViewModel.swift */; };
+		0D59FF242C7E17E900481DCF /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D59FF232C7E17E900481DCF /* Cell.swift */; };
+		0D59FF272C7E1ABC00481DCF /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D59FF262C7E1ABC00481DCF /* CellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		0D59FF0D2C7E0CAF00481DCF /* LifeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D59FF112C7E0CAF00481DCF /* LifeGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGameUITests.swift; sourceTree = "<group>"; };
 		0D59FF132C7E0CAF00481DCF /* LifeGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D59FF212C7E0CEB00481DCF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0D59FF232C7E17E900481DCF /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		0D59FF262C7E1ABC00481DCF /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		0D59FEF52C7E0CAD00481DCF /* LifeGame */ = {
 			isa = PBXGroup;
 			children = (
+				0D59FF212C7E0CEB00481DCF /* ViewModel.swift */,
+				0D59FF262C7E1ABC00481DCF /* CellView.swift */,
+				0D59FF202C7E0CC600481DCF /* Models */,
 				0D59FEF62C7E0CAD00481DCF /* LifeGameApp.swift */,
 				0D59FEF82C7E0CAD00481DCF /* ContentView.swift */,
 				0D59FEFA2C7E0CAE00481DCF /* Assets.xcassets */,
@@ -125,6 +134,14 @@
 				0D59FF132C7E0CAF00481DCF /* LifeGameUITestsLaunchTests.swift */,
 			);
 			path = LifeGameUITests;
+			sourceTree = "<group>";
+		};
+		0D59FF202C7E0CC600481DCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D59FF232C7E17E900481DCF /* Cell.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D59FEF92C7E0CAD00481DCF /* ContentView.swift in Sources */,
+				0D59FF272C7E1ABC00481DCF /* CellView.swift in Sources */,
+				0D59FF242C7E17E900481DCF /* Cell.swift in Sources */,
 				0D59FEF72C7E0CAD00481DCF /* LifeGameApp.swift in Sources */,
+				0D59FF222C7E0CEB00481DCF /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
